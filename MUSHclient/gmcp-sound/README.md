@@ -8,6 +8,7 @@ Die Töne werden beim ersten Abspielen vom UNItopia-Webserver heruntergeladen un
 - Alle drei Dateien sind bei derAnzeige in github auf RAW (rechts über der Datei) zu klicken und dann erst zu speichen!
 - Beide lua-Dateien ([gmcphelper.lua](gmcphelper.lua) und [soundcache.lua](soundcache.lua)) sind im lua-Unterpfad vom MushClient zu kopieren.
 - Kopiere [U_GMCP_sound.xml](U_GMCP_sound.xml) in den worlds/plugins Unterpfad von Mushclient.
+- Sicherstellen, dass es ein sounds Verzeichnis im MushClient-Hauptverzeichnis gibt.
 - Für alle UNItopia-Welten das File->plugins nutzen, um das U_GMCP_sound-Plugin hinzuzufuegen.
 - Aus- und Einloggen, um die Funktionen zu aktivieren.
 
@@ -25,6 +26,7 @@ saved locally in a sqlite database.
 - For all three files only save the RAW file (mouseclick on the RAW button on the right above the file, then save).
 - copy the two lua files ([gmcphelper.lua](gmcphelper.lua) and [soundcache.lua](soundcache.lua)) within the lua directory of Mushclient.
 - copy the plugin [U_GMCP_sound.xml](U_GMCP_sound.xml) into worlds/plugins of Mushclient.
+- Create a sounds subdirectory in the MushClient main directory, if not existing.
 - for all UNItopia-worlds use File->Plugins to add the plugin.
 - Please logout and login to activate the full functionality after plugin install.
 
